@@ -1,0 +1,24 @@
+Business Calendar Documentation
+========================================================
+author: Jerry Currie
+date: Mar 20,2015
+
+Coursera Data Products Course
+<br>Johns Hopkins University
+
+Business Calendar Documentation - Modern Time Units
+========================================================
+
+This application converts Gregorian dates (western calendar designed in 1582) into "Modern Time Units" (MTUs). MTUs consist of 100 time units per year beginning on 1/1/2000. Each time unit is 3.6525 Gregorian calendar days (365.25 days/ 100). This makes planning and reporting more in line with today's business environment. Periodic reporting could also be done every 10 MTUs with each quarter having 25 MTUs.
+
+Navigation Instructions
+========================================================
+![new](bcontrols.png)
+
+
+Points of Interest
+========================================================
+- Year 0 MTU 0. This is the first Modern Time Unit which starts on January 2, 2000. That's because the calendar is continuous and the 99th MTU of 1999 would end on January 2,2000 (because of the leap year).
+- Year 15 MTU 99. This MTU converts to the latest Gregorian date on the time line (12/29/2015). Again, this is because 2016 is a leap year and the 100th MTU is actually the start of year 16. 
+
+(note: MTU - Modern Time Unit)

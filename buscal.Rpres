@@ -1,0 +1,29 @@
+Business Calendar
+========================================================
+author: J Currie
+date: 3/19/2015
+
+Coursera Data Products Course
+<br>Johns Hopkins University
+
+First Slide
+========================================================
+the Business Calendar addresses the problems with comp
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+Slide With Code
+========================================================
+
+```{r}
+summary(cars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
