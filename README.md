@@ -1,5 +1,6 @@
 # DataProducts
 Business Calendar and Calculator - Modern Time Unit calculator
+
 shinyapp.io URL: http://jcurrie.shinyapps.io/Business_Calendar/
 
 This application illustrates how a decimal calendar (Modern Time Unit) might be used as a substitution for the Gregorian calendar (currently in use) in a business setting. It stands alone and uses date functions to calculate the Gregorian date from the MTU provided. The application contains a slider, which serves as a 3 year time line of MTU dates.
