@@ -802,21 +802,6 @@ hljs.initHighlightingOnLoad();
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
-<h3>Business Calendar Documentation - Modern Time Units</h3>
-<div class="slideContent" >
-<p>MTU date is computed by taking today&#39;s date - 1/1/2000 (10957) then divided by 365.25.
-The 10957 number comes from 1/1/2000 being 10957 days from 1/1/1970. 1/1/1970 is considered the beginning of time for most computers.</p>
-
-<pre><code class="r">paste(&quot;MTU:&quot;, round((as.numeric(Sys.Date())-10957)/365.25, digits=4) , &quot; Date:&quot;, Sys.Date())
-</code></pre>
-
-<pre><code>[1] &quot;MTU: 15.217  Date: 2015-03-21&quot;
-</code></pre>
-
-</div>
-
-</section>
-<section data-transition="linear" data-transition-speed="default">
 <h3>Navigation Instructions</h3>
 <div class="mediaOnly slideContent" >
 <p><img src="bcontrols.png" alt="new"/></p>

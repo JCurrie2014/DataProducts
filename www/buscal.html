@@ -794,20 +794,6 @@ hljs.initHighlightingOnLoad();
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
-<h3>Contents</h3>
-<div class="slideContent" >
-<ul>
-<li>Introduction</li>
-<li>The Problem</li>
-<li>The Proposed Solution</li>
-<li>The Benefits</li>
-<li>Business Example</li>
-</ul>
-
-</div>
-
-</section>
-<section data-transition="linear" data-transition-speed="default">
 <h3>Introduction</h3>
 <div class="slideContent" >
 <p>This project addresses the problem of inconsistant time frames defined by the Gregorian calendar, and its impact on computer systems.  </p>
@@ -834,7 +820,14 @@ hljs.initHighlightingOnLoad();
 <div class="slideContent" >
 <p>Create a Business Calendar using base 10 Modern Time Units (MTUs). Each MTU is 365.25/100 units per year, or 3.6525 Gregorian days per unit. This MTU could be further broken down into 1/10ths, 1/100ths or even greater levels of granularity if required.</p>
 
-<p>The Business Calendar starts on 01/01/2000 (the beginning of computer time). Interestly, the first MTU starts on 01/02/2000 as it addresses the leap year.  </p>
+<p>MTU date is computed by subtracting 10957 (1/1/2000) from today&#39;s date, then divided by 365.25.
+The 10957 number comes from 1/1/2000 being 10957 days from 1/1/1970. 1/1/1970 is considered the beginning of time for most computers.</p>
+
+<pre><code class="r">paste(&quot;MTU:&quot;, round((as.numeric(Sys.Date())-10957)/365.25, digits=4) , &quot; Date:&quot;, Sys.Date())
+</code></pre>
+
+<pre><code>[1] &quot;MTU: 15.2197  Date: 2015-03-22&quot;
+</code></pre>
 
 </div>
 
