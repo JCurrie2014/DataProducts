@@ -1,3 +1,4 @@
+#User interface for Shiny app using fluidPage template
 
 shinyUI(fluidPage(
         h2(a("Pitch", href="buscal.html")),

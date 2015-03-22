@@ -1,4 +1,4 @@
-
+#Shiny server using fluidPage template
 
 shinyServer(function(input, output) {
        #Send output (right side of screen) showing number of MTUs 
